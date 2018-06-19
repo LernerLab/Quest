@@ -14,6 +14,8 @@ git clone https://github.com/ChristophKirst/ClearMap.git
 wget https://github.com/SuperElastix/elastix/releases/download/4.9.0/elastix-4.9.0-linux.tar.bz2
 tar xvjf elastix-4.9.0-linux.tar.bz2
 rm elastix-4.9.0-linux.tar.bz2
+mkdir -p ~/.local/bin
+mkdir -p ~/.local/lib
 mv bin/* ~/.local/bin
 mv lib/* ~/.local/lib
 rm -r bin && rm -r lib
