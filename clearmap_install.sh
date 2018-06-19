@@ -19,4 +19,7 @@ mkdir -p ~/.local/lib
 mv bin/* ~/.local/bin
 mv lib/* ~/.local/lib
 rm -r bin && rm -r lib
+mkdir elastix_metadata
+mv LICENSE elastix_metadata && mv NOTICE elastix_metadata
 echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.local/lib" >> ~/.bashrc
+source ~/.bashrc
