@@ -11,7 +11,7 @@ wget https://idiscodotinfo.files.wordpress.com/2016/05/clearmap_ressources_mouse
 unzip clearmap_ressources_mouse_brain.zip
 rm clearmap_ressources_mouse_brain.zip
 rm -r __MACOSX
-git clone https://github.com/ChristophKirst/ClearMap.git
+git clone https://github.com/LernerLab/ClearMap.git
 wget https://github.com/SuperElastix/elastix/releases/download/4.9.0/elastix-4.9.0-linux.tar.bz2
 tar xvjf elastix-4.9.0-linux.tar.bz2
 rm elastix-4.9.0-linux.tar.bz2
@@ -29,3 +29,4 @@ cd ClearMap/ClearMap
 echo "To complete your install you must configure the settings.py file in the current directory"
 echo "change IlastikPath to: None"
 echo "change ElastixPath to: $HOME/.local/bin"
+echo "then run pip -u install clearmap"
